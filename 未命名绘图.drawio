@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T16:16:48.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="CsspfLqMgDZ6gdzYGtUv" version="14.0.4" type="github"><diagram id="V-CT-bQR6EL4BBTl5-5s" name="Page-1">ddHNEoIgEADgp+GuMGmdzerSyUNnRjZhBl0GabSePh0kY6wLs3y7sPwQVrTj2XIjryhAE5qIkbAjoTRPdtM4w9NDRhMPjVXCU7pCpV6wYCh7KAF9VOgQtVMmxhq7DmoXGbcWh7jsjjruangDG6hqrrd6U8JJr3uar34B1cjQOc0OPtPyULzcpJdc4PBFrCSssIjOR+1YgJ7fLryLX3f6k/0czELnfiyYgnXvaRJ9ECvf</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-16T16:26:29.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15" etag="ichnBIM4_VDa6vpMF39M" version="14.0.4" type="github">
+  <diagram id="V-CT-bQR6EL4BBTl5-5s" name="Page-1">
+    <mxGraphModel dx="705" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpOmWfIlOjlK94pHwSz9-2" target="bpOmWfIlOjlK94pHwSz9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-2" value="refresh()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpOmWfIlOjlK94pHwSz9-5" target="bpOmWfIlOjlK94pHwSz9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpOmWfIlOjlK94pHwSz9-5" target="bpOmWfIlOjlK94pHwSz9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-5" value="obtainFreshBeanFactory();" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpOmWfIlOjlK94pHwSz9-7" target="bpOmWfIlOjlK94pHwSz9-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-7" value="准备 beanFactory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="270" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-8" value="loadBeanDefinitions(XmlBeanDefinitionReader)" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="320" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.467;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bpOmWfIlOjlK94pHwSz9-10" target="bpOmWfIlOjlK94pHwSz9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-10" value="加载beanDefinition对象到beanFactory的beanDefinitionMap" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bpOmWfIlOjlK94pHwSz9-12" target="bpOmWfIlOjlK94pHwSz9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-12" value="prepareBeanFactory(beanFactory)&lt;br&gt;配置标准的环境" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-13" value="invokeBeanFactoryPostProcessors(beanFactory)" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="500" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
