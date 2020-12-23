@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T12:29:14.744Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="AZcK6iEIME61Eai1OzaP" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T12:43:48.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="-rgKp8QJPTAMVXOJq3cy" version="14.1.1" type="github">
   <diagram id="V-CT-bQR6EL4BBTl5-5s" name="Page-1">
     <mxGraphModel dx="1577" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -175,6 +175,14 @@
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-39" value="������重点方法：开始表演初始化所有的单例非懒加载 Bean" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBorderColor=#33FF99;" vertex="1" parent="1">
           <mxGeometry x="2440" y="65" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-41" target="tZ6f-W7lVFpLcrt0BJ1U-167">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-169" value="发布启动事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tZ6f-W7lVFpLcrt0BJ1U-168">
+          <mxGeometry x="0.0083" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-41" value="finishRefresh()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="2770" y="160" width="280" height="40" as="geometry" />
@@ -500,6 +508,9 @@
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-165" value="return &amp;nbsp;bean" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#36393d;fillColor=#ffcccc;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2410" y="1700" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-167" value="publishEvent" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="260" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
