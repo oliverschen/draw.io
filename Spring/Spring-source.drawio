@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T12:43:48.160Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="-rgKp8QJPTAMVXOJq3cy" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T15:15:10.390Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="a709l7vUAAA2XAarQ_Qq" version="14.1.1" type="github">
   <diagram id="V-CT-bQR6EL4BBTl5-5s" name="Page-1">
-    <mxGraphModel dx="1577" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,7 +152,7 @@
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-33" value="注册监听，将监听添加到事件多播器" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBorderColor=#33FF99;" vertex="1" parent="1">
           <mxGeometry x="2070" y="70" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-35">
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-35" target="tZ6f-W7lVFpLcrt0BJ1U-41">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2770" y="180" as="targetPoint" />
           </mxGeometry>
@@ -185,15 +185,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-41" value="finishRefresh()" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="2770" y="160" width="280" height="40" as="geometry" />
+          <mxGeometry x="2870" y="160" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2910" y="160" as="targetPoint" />
+            <mxPoint x="3010" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-43" value="发布一些相关的事件" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBorderColor=#33FF99;" vertex="1" parent="1">
-          <mxGeometry x="2850" y="75" width="120" height="20" as="geometry" />
+          <mxGeometry x="2950" y="75" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-58" target="bpOmWfIlOjlK94pHwSz9-5">
           <mxGeometry relative="1" as="geometry" />
@@ -510,7 +510,7 @@
           <mxGeometry x="2410" y="1700" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-167" value="publishEvent" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
-          <mxGeometry x="2770" y="260" width="280" height="40" as="geometry" />
+          <mxGeometry x="2870" y="260" width="280" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
