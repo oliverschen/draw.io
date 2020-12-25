@@ -21,7 +21,7 @@
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bpOmWfIlOjlK94pHwSz9-5" target="bpOmWfIlOjlK94pHwSz9-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bpOmWfIlOjlK94pHwSz9-5" value="obtainFreshBeanFactory();������" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
+        <mxCell id="bpOmWfIlOjlK94pHwSz9-5" value="obtainFreshBeanFactory();������" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="160" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="bpOmWfIlOjlK94pHwSz9-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="bpOmWfIlOjlK94pHwSz9-7" target="bpOmWfIlOjlK94pHwSz9-5" edge="1">
@@ -129,7 +129,7 @@
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-29" target="tZ6f-W7lVFpLcrt0BJ1U-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-29" value="模版方法，初始化一些特殊的 Bean，比如 Spring Boot 就是在这里发家的������。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBorderColor=#33FF99;" vertex="1" parent="1">
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-29" value="模版方法，初始化一些特殊的 Bean，比如 Spring Boot 就是在这里发家的������。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBorderColor=#33FF99;" vertex="1" parent="1">
           <mxGeometry x="1715" y="55" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-31" target="tZ6f-W7lVFpLcrt0BJ1U-35">
@@ -165,7 +165,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-35" value="finishBeanFactoryInitialization(beanFactory)������" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-35" value="finishBeanFactoryInitialization(beanFactory)������" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" vertex="1" parent="1">
           <mxGeometry x="2410" y="160" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" target="tZ6f-W7lVFpLcrt0BJ1U-35">
@@ -173,7 +173,7 @@
             <mxPoint x="2550" y="85" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-39" value="������重点方法：开始表演初始化所有的单例非懒加载 Bean" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBorderColor=#33FF99;" vertex="1" parent="1">
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-39" value="������重点方法：开始表演初始化所有的单例非懒加载 Bean" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBorderColor=#33FF99;" vertex="1" parent="1">
           <mxGeometry x="2440" y="65" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-41" target="tZ6f-W7lVFpLcrt0BJ1U-167">
@@ -364,7 +364,7 @@
             <mxPoint x="2550" y="1220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-127" value="������将早期对象放到singletonFactories二级缓存中������������" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tZ6f-W7lVFpLcrt0BJ1U-126">
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-127" value="������将早期对象放到singletonFactories二级缓存中������������" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="tZ6f-W7lVFpLcrt0BJ1U-126">
           <mxGeometry x="-0.0632" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-3.4299999999999997" as="offset" />
           </mxGeometry>
@@ -407,7 +407,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-128" value="populateBean(beanName, mbd, instanceWrapper)������������������" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#36393d;fillColor=#ffcccc;rounded=1;" vertex="1" parent="1">
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-128" value="populateBean(beanName, mbd, instanceWrapper)������������������" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#36393d;fillColor=#ffcccc;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2410" y="1360" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-131" target="tZ6f-W7lVFpLcrt0BJ1U-146">
@@ -491,7 +491,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-153" value="������this.beanFactory.getBean(refName)&lt;br&gt;获取依赖的bean" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#36393d;fillColor=#ffff88;rounded=1;" vertex="1" parent="1">
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-153" value="������this.beanFactory.getBean(refName)&lt;br&gt;获取依赖的bean" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#36393d;fillColor=#ffff88;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="2770" y="570" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-156" value="这时当前bean填充红色框流程的bean时，二级对象已经创建，所以可以创建成功，此时，创建好当前bean,然后回去继续完成红色框bean创建后续步骤" style="whiteSpace=wrap;html=1;shadow=0;strokeColor=#36393d;fillColor=#ffff88;rounded=1;" vertex="1" parent="1">
