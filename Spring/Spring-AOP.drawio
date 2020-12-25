@@ -1,1 +1,99 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T01:19:05.787Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.2" etag="N92U0BR21KpXH4O8UMYJ" type="github"><diagram id="0bU8umBcV4iLwMCIOOc6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-25T01:33:55.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="Ytf6SnCBZVDNpY5LkVSH" version="14.1.2" type="github">
+  <diagram id="0bU8umBcV4iLwMCIOOc6" name="第 1 页">
+    <mxGraphModel dx="1113" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-1" target="FrP4gUGGCShGiQhVi8kW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-1" value="refresh()入口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-2" target="FrP4gUGGCShGiQhVi8kW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-2" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-4" target="FrP4gUGGCShGiQhVi8kW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-4" value="省略IoC步骤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="20" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-8" target="FrP4gUGGCShGiQhVi8kW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-8" value="finishBeanFactoryInitialization(beanFactory)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="595" y="80" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-10" target="FrP4gUGGCShGiQhVi8kW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-10" value="初始化实例" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="20" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-12" target="FrP4gUGGCShGiQhVi8kW-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-12" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="870" y="80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-15" target="FrP4gUGGCShGiQhVi8kW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-21" value="调用 Aware 接口实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FrP4gUGGCShGiQhVi8kW-20">
+          <mxGeometry x="-0.28" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-15" value="initializeBean(beanName, exposedObject, mbd)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="990" y="80" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-19" target="FrP4gUGGCShGiQhVi8kW-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-24" value="执行 BeanPostProcessor 接口 before 方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FrP4gUGGCShGiQhVi8kW-23">
+          <mxGeometry x="-0.1667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-19" value="&lt;span style=&quot;text-align: left&quot;&gt;invokeAwareMethods&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="990" y="160" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-22" target="FrP4gUGGCShGiQhVi8kW-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-27" value="执行 InitializingBean 接口&amp;nbsp;afterPropertiesSet() 方法&lt;br&gt;或者init-method &lt;br&gt;（@Bean(name = &quot;user&quot;, initMethod = &quot;init&quot;)）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FrP4gUGGCShGiQhVi8kW-26">
+          <mxGeometry x="-0.075" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-22" value="&lt;span style=&quot;text-align: left&quot;&gt;applyBeanPostProcessorsBeforeInitialization&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="990" y="260" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-25" target="FrP4gUGGCShGiQhVi8kW-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-30" value="执行 BeanPostProcessor 接口 after 方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FrP4gUGGCShGiQhVi8kW-29">
+          <mxGeometry x="-0.1333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-25" value="&lt;span style=&quot;text-align: left&quot;&gt;invokeInitMethods&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="990" y="380" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-28" value="&lt;span style=&quot;text-align: left&quot;&gt;applyBeanPostProcessorsAfterInitialization&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="990" y="460" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="FrP4gUGGCShGiQhVi8kW-31" target="FrP4gUGGCShGiQhVi8kW-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FrP4gUGGCShGiQhVi8kW-31" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;省略 Bean 实例话过程，直接到初始化方法，&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;因为&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;AOP 自动代理实现了 BeanPostProcessor&lt;br&gt;接口，在后置处理器 after 方法执行&amp;nbsp;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="5" width="250" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
