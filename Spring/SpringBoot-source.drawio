@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T18:47:57.473Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="ZqIbeQsQmRxeM1Wy-775" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-27T03:24:59.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="T2p1-hX-Zow910rL6NB4" version="14.1.2" type="github">
   <diagram id="ky6fFpgVnQBfo7zs0x9U" name="第 1 页">
-    <mxGraphModel dx="2703" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,9 +266,9 @@
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-75" value="IoC 容器启动完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1150" y="850" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pfr_c7od5XY8Wq67QSDI-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pfr_c7od5XY8Wq67QSDI-110" target="Pfr_c7od5XY8Wq67QSDI-81">
+        <mxCell id="Pfr_c7od5XY8Wq67QSDI-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pfr_c7od5XY8Wq67QSDI-78" target="Pfr_c7od5XY8Wq67QSDI-81">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1620" y="1010" as="sourcePoint" />
+            <mxPoint x="1570" y="800" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-83" value="解析每一个 @Configuration 类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pfr_c7od5XY8Wq67QSDI-82">
@@ -276,19 +276,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Pfr_c7od5XY8Wq67QSDI-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pfr_c7od5XY8Wq67QSDI-78" target="Pfr_c7od5XY8Wq67QSDI-107">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Pfr_c7od5XY8Wq67QSDI-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pfr_c7od5XY8Wq67QSDI-81" target="Pfr_c7od5XY8Wq67QSDI-107">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1874.5" y="790" as="sourcePoint" />
+            <mxPoint x="1874.5" y="890" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Pfr_c7od5XY8Wq67QSDI-109" value="1.&amp;nbsp;@PropertySource&lt;br&gt;2. @ComponentScan&lt;br&gt;3.&amp;nbsp;@Import&lt;br&gt;4.&amp;nbsp;@ImportResource&lt;br&gt;5.&amp;nbsp;@Bean&lt;br&gt;等注解处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pfr_c7od5XY8Wq67QSDI-108">
-          <mxGeometry x="-0.075" y="2" relative="1" as="geometry">
+        <mxCell id="Pfr_c7od5XY8Wq67QSDI-151" value="1.&amp;nbsp;@PropertySource&lt;br&gt;2. @ComponentScan&lt;br&gt;3.&amp;nbsp;@Import&lt;br&gt;4.&amp;nbsp;@ImportResource&lt;br&gt;5.&amp;nbsp;@Bean&lt;br&gt;等注解处理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pfr_c7od5XY8Wq67QSDI-108">
+          <mxGeometry x="-0.02" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-78" value="processConfigBeanDefinitions(registry)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1700" y="640" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pfr_c7od5XY8Wq67QSDI-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pfr_c7od5XY8Wq67QSDI-81" target="Pfr_c7od5XY8Wq67QSDI-84">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Pfr_c7od5XY8Wq67QSDI-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Pfr_c7od5XY8Wq67QSDI-110" target="Pfr_c7od5XY8Wq67QSDI-84">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1875" y="1000" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-86" value="解析 selector 类，这里会解析&amp;nbsp;&lt;span&gt;@EnableAutoConfiguration&lt;br&gt;注解中Import进来的&lt;/span&gt;&lt;span&gt;AutoConfigurationImportSelector类&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pfr_c7od5XY8Wq67QSDI-85">
           <mxGeometry x="-0.1809" y="1" relative="1" as="geometry">
@@ -296,7 +301,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-81" value="parser.parse(candidates)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="957" width="350" height="40" as="geometry" />
+          <mxGeometry x="1700" y="720" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pfr_c7od5XY8Wq67QSDI-84" target="Pfr_c7od5XY8Wq67QSDI-87">
           <mxGeometry relative="1" as="geometry" />
@@ -372,10 +377,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-107" value="doProcessConfigurationClass()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="780" width="350" height="40" as="geometry" />
+          <mxGeometry x="1700" y="860" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-110" value="componentScanParser.parse(componentScan, sourceClass.getMetadata().getClassName())" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="870" width="350" height="40" as="geometry" />
+          <mxGeometry x="1700" y="950" width="350" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pfr_c7od5XY8Wq67QSDI-113" target="Pfr_c7od5XY8Wq67QSDI-117">
           <mxGeometry relative="1" as="geometry" />
