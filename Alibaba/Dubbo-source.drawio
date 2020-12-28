@@ -1,1 +1,237 @@
-<mxfile host="app.diagrams.net" modified="2020-12-27T09:12:41.947Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.2" etag="R1LeQPCeckq3AVt2WozC" type="github"><diagram id="u-6T0Q0Hzs0U8y--g6ju">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-28T15:17:42.955Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="hUtx-Rxk3o8vooj4Ve12" version="14.1.2" type="github">
+  <diagram id="u-6T0Q0Hzs0U8y--g6ju" name="第 1 页">
+    <mxGraphModel dx="1351" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="THyuX_9nO1EnehneHS2Q-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-1" target="THyuX_9nO1EnehneHS2Q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-1" value="populateBean()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-2" target="THyuX_9nO1EnehneHS2Q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-2" value="IoC&amp;nbsp;" style="text;html=1;fillColor=#fad7ac;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="120" y="95" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-5" target="THyuX_9nO1EnehneHS2Q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-11" value="执行注入" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-10">
+          <mxGeometry x="0.05" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-5" value="ibp.postProcessPropertyValues(pvs, filteredPds, bw.getWrappedInstance(), beanName)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-7" target="THyuX_9nO1EnehneHS2Q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-7" value="执行dubbo提供的后置处理器，ReferenceAnnotationBeanPostProcessor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-9" target="THyuX_9nO1EnehneHS2Q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-9" target="THyuX_9nO1EnehneHS2Q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-9" value="inject(bean, beanName, pvs)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-12" target="THyuX_9nO1EnehneHS2Q-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-12" value="在填充属性时，如果是@Reference注解的属性，按照dubbo的后置处理器处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="10" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-14" target="THyuX_9nO1EnehneHS2Q-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-19" value="注入bean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-18">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-14" value="getInjectedObject(attributes, bean, beanName, injectedType, this);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="400" y="230" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-17" target="THyuX_9nO1EnehneHS2Q-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-22" value="构造beanName，暴露接口名称&lt;br&gt;[ServiceBean:top.xxx.interfaces.learn.LeaService]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-21">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-17" target="THyuX_9nO1EnehneHS2Q-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-17" value="doGetInjectedBean(attributes, bean, beanName, injectedType, injectedElement)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="810" y="90" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-20" target="THyuX_9nO1EnehneHS2Q-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-25" value="@DubboRerefence 注解引入的beanName&lt;br&gt;@Reference(check=false) top.fengzhu.interfaces.learn.LeaService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-24">
+          <mxGeometry x="-0.25" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-20" value="buildReferencedBeanName(attributes, injectedType)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="810" y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-23" target="THyuX_9nO1EnehneHS2Q-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-28" value="构造 referenceBean" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-27">
+          <mxGeometry x="-0.32" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-23" value="getReferenceBeanName(attributes, injectedType);" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="810" y="270" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-26" target="THyuX_9nO1EnehneHS2Q-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-31" value="判断是否是本地暴露的服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-30">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-26" target="THyuX_9nO1EnehneHS2Q-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-26" value="buildReferenceBeanIfAbsent(referenceBeanName, attributes, injectedType)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="810" y="350" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-29" target="THyuX_9nO1EnehneHS2Q-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-35" value="注册bean：&lt;br&gt;1. 如果是本地的，直接注册别名，减少冲突&lt;br&gt;2. 如果是reomte，直接手动注册到缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-34">
+          <mxGeometry x="-0.15" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-29" value="isLocalServiceBean(referencedBeanName, referenceBean, attributes)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="810" y="430" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-33" target="THyuX_9nO1EnehneHS2Q-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-38" value="创建bean 的代理对象&lt;br&gt;1. 如果是本地的用JDK动态代理创建一个&lt;br&gt;2. 如果是remote开始创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-37">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-33" value="registerReferenceBean(referencedBeanName, referenceBean, attributes, localServiceBean, injectedType)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="810" y="540" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="THyuX_9nO1EnehneHS2Q-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="660" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="660" />
+              <mxPoint x="1220" y="160" />
+              <mxPoint x="1460" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-54" value="远程服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-49">
+          <mxGeometry x="0.075" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-39" target="THyuX_9nO1EnehneHS2Q-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-43" value="装载配置属性" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-42">
+          <mxGeometry x="-0.16" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-39" value="beanBuilder.build()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-41" value="configureBean(configBean)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="400" y="430" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-44" value="return bean" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="90" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-46" target="THyuX_9nO1EnehneHS2Q-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-46" value="将bean 添加到缓存中返回" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="35" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-48" target="THyuX_9nO1EnehneHS2Q-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-48" value="referenceBean.get()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="180" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-50" target="THyuX_9nO1EnehneHS2Q-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-53" value="本地服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-52">
+          <mxGeometry x="-0.3622" y="1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-50" value="&lt;span&gt;getOrCreateProxy(,,,)&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="805" y="640" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-51" value="newProxyInstance" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#36393d;fillColor=#cdeb8b;" vertex="1" parent="1">
+          <mxGeometry x="400" y="640" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-55" target="THyuX_9nO1EnehneHS2Q-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-59" value="填充远程调用的参数&lt;br&gt;然后创建代理对象" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-58">
+          <mxGeometry x="-0.12" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-55" value="init()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="230" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-57" target="THyuX_9nO1EnehneHS2Q-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-62" value="组装请求的URL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-61">
+          <mxGeometry x="-0.025" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-57" value="createProxy(map)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="310" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-60" target="THyuX_9nO1EnehneHS2Q-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-65" value="创建代理，通过 javassist" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="THyuX_9nO1EnehneHS2Q-64">
+          <mxGeometry x="-0.16" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-60" value="ConfigValidationUtils.loadRegistries(this, false)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="380" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="THyuX_9nO1EnehneHS2Q-63" target="THyuX_9nO1EnehneHS2Q-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-63" value="&amp;nbsp;(T) PROXY_FACTORY.getProxy(invoker, ProtocolUtils.isGeneric(generic));" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="460" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="THyuX_9nO1EnehneHS2Q-66" value="先创建代理实例，在创建代理类，都是通过字节码拼接完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="530" width="320" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
