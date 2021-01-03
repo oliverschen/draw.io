@@ -1,1 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2021-01-01T16:30:04.975Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.2" etag="oMmIOhbqFNnSId4QauuJ" type="github"><diagram id="Wsj4afVeevuhm8IvAsYv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-03T03:59:12.294Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="_4CLiPk6x3YS-J3XYtsW" version="14.1.2" type="github">
+  <diagram id="Wsj4afVeevuhm8IvAsYv" name="第 1 页">
+    <mxGraphModel dx="1113" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NISNzgCOaCl-4DxK-km3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-1" target="NISNzgCOaCl-4DxK-km3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-1" value="dubbo 暴露服务给Nacos&lt;br&gt;doExport()方法" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-2" target="NISNzgCOaCl-4DxK-km3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-22" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;创建注册信息，缓存在&amp;nbsp;REGISTRIES HashMap中，&lt;br&gt;创建和添加整个过程使用了 JDK 的&amp;nbsp;ReentrantLock&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-8">
+          <mxGeometry x="-0.0134" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-2" target="NISNzgCOaCl-4DxK-km3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-2" value="registryFactory.getRegistry(registryUrl)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="400" y="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-5" target="NISNzgCOaCl-4DxK-km3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-5" value="通过dubbo增强SPI 机制，通过工厂设计模式，找到对应的注册工厂类,创建注册中心" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="422.5" y="30" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-7" target="NISNzgCOaCl-4DxK-km3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-13" value="创建 Naming Service" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-12">
+          <mxGeometry x="-0.1143" y="3" relative="1" as="geometry">
+            <mxPoint x="-7.65" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-7" target="NISNzgCOaCl-4DxK-km3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-23" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;添加到本地 Map 缓存&lt;/span&gt;&lt;br style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;finally 中释放锁&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-18">
+          <mxGeometry x="-0.1662" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-7" value="createRegistry(url)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-11" target="NISNzgCOaCl-4DxK-km3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-16" value="创建 Registry" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-15">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-11" value="createNamingService(url)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="260" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-14" value="new NacosRegistry(url, createNamingService(url))" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="360" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-17" value="REGISTRIES.put(key, registry)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="380" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-24" target="NISNzgCOaCl-4DxK-km3-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-24" value="register(registryUrl, registeredProviderUrl)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-26" target="NISNzgCOaCl-4DxK-km3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-26" value="将要注册的服务绑定到注册中心" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="742.5" y="30" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-28" target="NISNzgCOaCl-4DxK-km3-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-28" value="注册提供者模型，发布事件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-32" value="返回注册信息" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="780" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
