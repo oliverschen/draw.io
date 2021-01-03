@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-03T08:36:34.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="IiIvHc8AqVEgbA5Ah2an" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-03T14:44:54.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="PPvXkDC6rlhn_i3WvLgQ" version="14.1.2" type="github">
   <diagram id="Wsj4afVeevuhm8IvAsYv" name="第 1 页">
-    <mxGraphModel dx="1577" dy="1033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1892" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -144,7 +144,7 @@
         <mxCell id="NISNzgCOaCl-4DxK-km3-74" value="serverProxy.registerService" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
           <mxGeometry x="1097.5" y="430.63666666666666" width="268.0851063829787" height="42.05128205128205" as="geometry" />
         </mxCell>
-        <mxCell id="NISNzgCOaCl-4DxK-km3-82" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-78">
+        <mxCell id="NISNzgCOaCl-4DxK-km3-82" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-78" target="NISNzgCOaCl-4DxK-km3-95">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1231.5425531914889" y="630.6399999999998" as="targetPoint" />
           </mxGeometry>
@@ -175,11 +175,19 @@
         <mxCell id="NISNzgCOaCl-4DxK-km3-90" value="reqAPI" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#36393d;fillColor=#ffff88;" vertex="1" parent="1">
           <mxGeometry x="1407.5" y="690.6405128205128" width="268.0851063829787" height="42.05128205128205" as="geometry" />
         </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-159" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-93" target="NISNzgCOaCl-4DxK-km3-155">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1542" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-93" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;请求：/nacos/v1/ns/instance&lt;/span&gt;&lt;span style=&quot;background-color: rgb(185 , 224 , 165) ; font-size: 11px&quot;&gt;/beat&lt;br&gt;心跳服务&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1419.04" y="790.64" width="245" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-158" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-95" target="NISNzgCOaCl-4DxK-km3-154">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-95" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;请求：/nacos/v1/ns/instance&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;注册服务&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1109.04" y="630.64" width="245" height="40" as="geometry" />
+          <mxGeometry x="1109.04" y="790.64" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-97" value="服务注册" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-96" target="NISNzgCOaCl-4DxK-km3-69">
           <mxGeometry relative="1" as="geometry" />
@@ -239,8 +247,11 @@
         <mxCell id="NISNzgCOaCl-4DxK-km3-107" value="updateServiceNow(serviceName, clusters)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="1879.9999999999998" y="472.0492307692307" width="268.0851063829787" height="42.05128205128205" as="geometry" />
         </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-141" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-110" target="NISNzgCOaCl-4DxK-km3-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-110" value="&lt;span style=&quot;background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;请求：&lt;/span&gt;/nacos/v1/ns/instance/list&lt;/span&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;br&gt;服务列表&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1891.54" y="820" width="245" height="40" as="geometry" />
+          <mxGeometry x="1891.54" y="790.64" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-118" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-111" target="NISNzgCOaCl-4DxK-km3-117">
           <mxGeometry relative="1" as="geometry" />
@@ -315,6 +326,99 @@
         </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-134" value="executor.schedule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="2409.9951063829785" y="498.5817948717947" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-140" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-138" target="NISNzgCOaCl-4DxK-km3-154">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="930" y="1025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-138" value="Server" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;dashed=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="126.11999999999989" y="990" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-139" target="NISNzgCOaCl-4DxK-km3-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-139" value="InstanceController.list" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1879.9999999999998" y="1003.9792307692308" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-142" target="NISNzgCOaCl-4DxK-km3-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-146" value="serviceMap 获取服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-145">
+          <mxGeometry x="-0.0227" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-142" value="doSrvIpxt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1879.9999999999998" y="1100.0005128205128" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-148" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-144" target="NISNzgCOaCl-4DxK-km3-147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-144" value="serviceManager.getService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1879.9999999999998" y="1200.0017948717948" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-151" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-147" target="NISNzgCOaCl-4DxK-km3-150">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-147" value="service.srvIPs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1879.9999999999998" y="1290.0030769230768" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-153" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-150" target="NISNzgCOaCl-4DxK-km3-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-150" value="result.addAll(clusterObj.allIPs())" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1879.9999999999998" y="1370.0043589743589" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-152" value="return 返回所有实例" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1879.9999999999998" y="1449.995641025641" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-157" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-154">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="1025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-154" target="NISNzgCOaCl-4DxK-km3-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-164" value="解析实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-163">
+          <mxGeometry x="-0.015" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-154" value="InstanceController.register" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1003.9792307692308" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-156" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-155" target="NISNzgCOaCl-4DxK-km3-139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-155" value="InstanceController.beat" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1407.4999999999998" y="1003.9792307692308" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-166" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-162" target="NISNzgCOaCl-4DxK-km3-165">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-167" value="组装instance" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-166">
+          <mxGeometry x="-0.0409" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-162" target="NISNzgCOaCl-4DxK-km3-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-170" value="&lt;span style=&quot;background-color: rgb(185 , 224 , 165)&quot;&gt;以AP模式将实例注册到服务&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-169">
+          <mxGeometry x="-0.0706" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-162" value="parseInstance(request)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1126.0305128205127" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-165" value="getIpAddress(request)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="309.9999999999997" y="1127.0017948717948" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-168" value="serviceManager.registerInstance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1230.0017948717948" width="268.0851063829787" height="42.05128205128205" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
