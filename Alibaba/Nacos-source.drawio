@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-03T14:44:54.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="PPvXkDC6rlhn_i3WvLgQ" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-04T05:52:15.050Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="EfWW-79CsXQE2bZQUdj4" version="14.1.2" type="github">
   <diagram id="Wsj4afVeevuhm8IvAsYv" name="第 1 页">
-    <mxGraphModel dx="1892" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="4651" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,7 +186,7 @@
         <mxCell id="NISNzgCOaCl-4DxK-km3-158" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-95" target="NISNzgCOaCl-4DxK-km3-154">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NISNzgCOaCl-4DxK-km3-95" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;请求：/nacos/v1/ns/instance&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;注册服务&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="NISNzgCOaCl-4DxK-km3-95" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;POST请求：/nacos/v1/ns/instance&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;注册服务&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1109.04" y="790.64" width="245" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-97" value="服务注册" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-96" target="NISNzgCOaCl-4DxK-km3-69">
@@ -333,7 +333,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-138" value="Server" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=0;dashed=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="126.11999999999989" y="990" width="70" height="70" as="geometry" />
+          <mxGeometry x="-453.5400000000001" y="990" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-143" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-139" target="NISNzgCOaCl-4DxK-km3-142">
           <mxGeometry relative="1" as="geometry" />
@@ -414,11 +414,297 @@
         <mxCell id="NISNzgCOaCl-4DxK-km3-162" value="parseInstance(request)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="712.5499999999997" y="1126.0305128205127" width="268.0851063829787" height="42.05128205128205" as="geometry" />
         </mxCell>
-        <mxCell id="NISNzgCOaCl-4DxK-km3-165" value="getIpAddress(request)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="NISNzgCOaCl-4DxK-km3-165" value="getIpAddress(request)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="309.9999999999997" y="1127.0017948717948" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-168" target="NISNzgCOaCl-4DxK-km3-171">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NISNzgCOaCl-4DxK-km3-168" value="serviceManager.registerInstance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="712.5499999999997" y="1230.0017948717948" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-174" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-171" target="NISNzgCOaCl-4DxK-km3-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-175" value="=null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-174">
+          <mxGeometry x="0.1245" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-182" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-171" target="NISNzgCOaCl-4DxK-km3-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-183" value="再次获取服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-182">
+          <mxGeometry x="-0.0383" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-171" value="createEmptyService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1332.0530769230768" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-179" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-173" target="NISNzgCOaCl-4DxK-km3-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-180" value="放入缓存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-179">
+          <mxGeometry x="-0.1093" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-173" value="putServiceAndInit(service)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-159.99510638297892" y="1332.0530769230768" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-176" target="NISNzgCOaCl-4DxK-km3-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-176" value="new Service()" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-134.8689361702128" y="1242.05" width="217.8191489361702" height="52.56410256410257" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-185" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-178" target="NISNzgCOaCl-4DxK-km3-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-186" value="初始化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-185">
+          <mxGeometry x="0.0486" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-178" value="putService(service)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-160.00510638297885" y="1430.0043589743589" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-181" target="NISNzgCOaCl-4DxK-km3-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-181" value="getService()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1430.0043589743589" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-190" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-184" target="NISNzgCOaCl-4DxK-km3-189">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-191" value="&lt;span style=&quot;background-color: rgb(230 , 208 , 222)&quot;&gt;健康检查定时任务&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-190">
+          <mxGeometry x="-0.2036" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-184" value="service.init()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-160.00510638297885" y="1519.995641025641" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-187" target="NISNzgCOaCl-4DxK-km3-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-187" value="Map&amp;lt;String, Map&amp;lt;String, Service&amp;gt;&amp;gt;&lt;br&gt;类型：Map(namespace, Map(group::serviceName, Service))" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1418.41" width="280" height="65.25" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-189" target="NISNzgCOaCl-4DxK-km3-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-194" value="定时任务线程类" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-193">
+          <mxGeometry x="-0.0227" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-189" value="HealthCheckReactor.scheduleCheck(clientBeatCheckTask)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1610" width="328.08" height="42.05" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-192" target="NISNzgCOaCl-4DxK-km3-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-197" value="判断当前时间减去最后心跳时间是否&lt;br&gt;大于心跳超时时间「默认15s」" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-196">
+          <mxGeometry x="-0.0128" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-192" value="ClientBeatCheckTask" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1700" width="328.08" height="42.05" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-199" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-195" target="NISNzgCOaCl-4DxK-km3-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-200" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-199">
+          <mxGeometry x="-0.1347" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-195" target="NISNzgCOaCl-4DxK-km3-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-208" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-204">
+          <mxGeometry x="-0.0647" y="3" relative="1" as="geometry">
+            <mxPoint x="-3.02" y="-27.06" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-209" value="当前时间-最后心跳时间大于删除超时时间「默认30」&lt;br&gt;删除服务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-204">
+          <mxGeometry x="0.173" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-195" value="currentTimeMillis - getLastBeat() &amp;gt; HeartBeatTimeOut" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-195.95" y="1803.08" width="340" height="66.92" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-206" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-198" target="NISNzgCOaCl-4DxK-km3-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-207" value="发布服务改变和&lt;br&gt;服务超时事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-206">
+          <mxGeometry x="-0.1065" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="5.92" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-198" value="instance.setHealthy(false)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1814.3" width="222.92" height="44.49" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-202" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-201" target="NISNzgCOaCl-4DxK-km3-198">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-201" value="健康状态设置false" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#000000;dashed=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="-453.54" y="1730" width="190" height="41.6" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-203" target="NISNzgCOaCl-4DxK-km3-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-212" value="请求接口删除实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-211">
+          <mxGeometry x="-0.1145" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-203" value="deleteIp(instance)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1970" width="328.08" height="42.05" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-205" value="getPushService()&lt;br&gt;.serviceChanged(service)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="1928.78" width="222.92" height="44.49" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-210" target="NISNzgCOaCl-4DxK-km3-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-210" value="HttpClient.asyncHttpDelete &amp;nbsp;DELETE 请求方式" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-189.99" y="2080" width="328.08" height="42.05" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-213" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;DELETE请求：/nacos/v1/ns/instance&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;注册服务&lt;/span&gt;&lt;span style=&quot;font-size: 11px ; background-color: rgb(185 , 224 , 165)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-148.45" y="2180" width="245" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-218" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-215" target="NISNzgCOaCl-4DxK-km3-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-215" value="addInstance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1519.995641025641" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-220" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-217" target="NISNzgCOaCl-4DxK-km3-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-221" value="&lt;span style=&quot;background-color: rgb(185 , 224 , 165)&quot;&gt;根据 key 判断持久化服务&lt;br&gt;临时「JVM内存」持久或者&lt;br&gt;永久「Mysql数据库」持久存储？&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-220">
+          <mxGeometry x="-0.1535" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-217" value="consistencyService.put(key, instances)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1609.996923076923" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-223" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-219" target="NISNzgCOaCl-4DxK-km3-222">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-224" value="临时存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-223">
+          <mxGeometry x="-0.2522" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-226" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-219" target="NISNzgCOaCl-4DxK-km3-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-227" value="持久化存储" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-226">
+          <mxGeometry x="-0.537" y="2" relative="1" as="geometry">
+            <mxPoint x="22.37" y="2.02" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-219" value="mapConsistencyService(key)" style="rhombus;whiteSpace=wrap;html=1;rounded=1;strokeColor=#36393d;fillColor=#f9f7ed;" vertex="1" parent="1">
+          <mxGeometry x="706.59" y="1716.1499999999999" width="280" height="86.93" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-229" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-222" target="NISNzgCOaCl-4DxK-km3-228">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-230" value="基于 Distro 协议实现的 AP 一致性算法&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-229">
+          <mxGeometry x="-0.0577" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-222" value="EphemeralConsistencyService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1839.996923076923" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-253" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-225" target="NISNzgCOaCl-4DxK-km3-252">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-254" value="基于 Raft 协议实现的 CP 一致性算法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-253">
+          <mxGeometry x="-0.0166" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-225" value="PersistentConsistencyService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1139.4099999999999" y="1738.5869230769229" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-232" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-228" target="NISNzgCOaCl-4DxK-km3-231">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-245" value="1. 添加数据到节点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-232">
+          <mxGeometry x="-0.3195" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-228" value="DistroConsistencyServiceImpl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="1931.216923076923" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-236" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-231" target="NISNzgCOaCl-4DxK-km3-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-243" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-231" target="NISNzgCOaCl-4DxK-km3-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-244" value="2. 同步数据到所有远程服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-243">
+          <mxGeometry x="-0.0303" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-231" value="onPut(key, value)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="2029.998205128205" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-238" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-235" target="NISNzgCOaCl-4DxK-km3-237">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-239" value="添加一个数据改变的时间放到阻塞队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NISNzgCOaCl-4DxK-km3-238">
+          <mxGeometry x="-0.0262" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-235" value="dataStore.put(key, datum)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="364.46489361702106" y="2029.998205128205" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-241" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-237" target="NISNzgCOaCl-4DxK-km3-240">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-237" value="notifier.addTask(key, DataOperation.CHANGE)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="364.46489361702106" y="2152.049487179487" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-240" value="tasks.offer(Pair.with(datumKey, action));" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="364.46489361702106" y="2240.0007692307695" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-249" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-242" target="NISNzgCOaCl-4DxK-km3-248">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-242" value="distroProtocol.sync" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="712.5499999999997" y="2137.9494871794873" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-251" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-248" target="NISNzgCOaCl-4DxK-km3-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-248" value="distroTaskEngineHolder.getDelayTaskExecuteEngine()&lt;br&gt;.addTask(distroKeyWithTarget, distroDelayTask)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="682.8699999999999" y="2240" width="327.45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-250" value="tasks.put(key, newTask)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="682.8699999999999" y="2370" width="327.45" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-256" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="NISNzgCOaCl-4DxK-km3-252" target="NISNzgCOaCl-4DxK-km3-255">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-252" value="RaftConsistencyServiceImpl" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1139.4099999999999" y="1839.9969230769227" width="268.0851063829787" height="42.05128205128205" as="geometry" />
+        </mxCell>
+        <mxCell id="NISNzgCOaCl-4DxK-km3-255" value="raftCore.signalPublish(key, value)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="1139.4099999999999" y="1927.9482051282048" width="268.0851063829787" height="42.05128205128205" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
