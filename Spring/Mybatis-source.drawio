@@ -1,1 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2021-01-06T07:50:37.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.8" etag="YUQwX4oGmR8Lc--KgyW_" type="github"><diagram id="g0uHM2vRM4wZy8sYw2WT">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-06T14:57:06.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="QH9CVzVlBvqv2741sWDq" version="14.1.8" type="github">
+  <diagram id="g0uHM2vRM4wZy8sYw2WT" name="第 1 页">
+    <mxGraphModel dx="1113" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-1" target="REHJ8oRx9UyghgxtZ1v1-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-1" value="MybatisAutoConfiguration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="160" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-2" target="REHJ8oRx9UyghgxtZ1v1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-2" value="Springboot自动配置 &amp;nbsp;Mybatis 自动配置入口" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fillColor=#d5e8d4;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-4" target="REHJ8oRx9UyghgxtZ1v1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-10" value="先创建&lt;span style=&quot;font-size: 12px&quot;&gt;&lt;span style=&quot;background-color: rgb(248 , 249 , 250)&quot;&gt;SqlSessionFactoryBean&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: rgb(185 , 224 , 165)&quot;&gt;实现了&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(185 , 224 , 165)&quot;&gt;FactoryBean&amp;lt;SqlSessionFactory&amp;gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="REHJ8oRx9UyghgxtZ1v1-9">
+          <mxGeometry x="-0.0857" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-4" target="REHJ8oRx9UyghgxtZ1v1-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-4" value="MybatisAutoConfiguration.sqlSessionFactory()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="720" y="160" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-6" target="REHJ8oRx9UyghgxtZ1v1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-6" value="创建 sqlSessionFactory" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="780" y="70" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-8" value="new SqlSessionFactoryBean()" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="720" y="270" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-11" target="REHJ8oRx9UyghgxtZ1v1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-11" target="REHJ8oRx9UyghgxtZ1v1-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-17" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;MybatisAutoConfiguration &lt;br&gt;自动配置类先加载数据源&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="REHJ8oRx9UyghgxtZ1v1-16">
+          <mxGeometry x="-0.1333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-11" value="DataSourceAutoConfiguration" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="380" y="160" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;dashed=1;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-13" target="REHJ8oRx9UyghgxtZ1v1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-13" value="创建 DataSource" style="text;html=1;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="440" y="70" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="REHJ8oRx9UyghgxtZ1v1-15" target="REHJ8oRx9UyghgxtZ1v1-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-20" value="@Import({ DataSourceConfiguration.Hikari.class ...})&lt;br&gt;导入数据库连接池" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="REHJ8oRx9UyghgxtZ1v1-19">
+          <mxGeometry x="-0.05" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-15" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;@AutoConfigureAfter({ DataSourceAutoConfiguration.class, })&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="380" y="260" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-18" value="&lt;div&gt;DataSourceConfiguration.Hikari&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="REHJ8oRx9UyghgxtZ1v1-21" value="return&amp;nbsp;sqlSessionFactory" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="160" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
