@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-03T05:51:58.255Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="F_kMkj2ntdbeITGQoJu0" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-03T05:59:22.297Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="cJ5hSpUad6WbkQumKYWY" version="14.4.3" type="github">
   <diagram id="qsA4LFFCEY-i6ZN9s8wt" name="Page-1">
     <mxGraphModel dx="2192" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,7 +51,7 @@
           <mxGeometry x="-377.5" y="690" width="37.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cQgMK63ZiCmz1B0YtC4z-24" value="接收&amp;nbsp;adapter&amp;nbsp;转换的数&lt;br&gt;据通知&amp;nbsp;op&amp;nbsp;新订单信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="520" width="130" height="30" as="geometry" />
+          <mxGeometry x="-380" y="520" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cQgMK63ZiCmz1B0YtC4z-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-25" target="cQgMK63ZiCmz1B0YtC4z-27">
           <mxGeometry relative="1" as="geometry" />
@@ -90,17 +90,17 @@
         <mxCell id="cQgMK63ZiCmz1B0YtC4z-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-43" target="cQgMK63ZiCmz1B0YtC4z-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cQgMK63ZiCmz1B0YtC4z-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-43" target="cQgMK63ZiCmz1B0YtC4z-64">
+        <mxCell id="cQgMK63ZiCmz1B0YtC4z-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-43" target="cQgMK63ZiCmz1B0YtC4z-64">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="35" y="650" />
-              <mxPoint x="301" y="650" />
+              <mxPoint x="251" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cQgMK63ZiCmz1B0YtC4z-74" value="输充线告诉操作台，&lt;br&gt;那个料箱来了，&lt;br&gt;操作结束后，station&amp;nbsp;&lt;br&gt;告诉&amp;nbsp;equip&amp;nbsp;可以放行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cQgMK63ZiCmz1B0YtC4z-73">
-          <mxGeometry x="0.0112" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="cQgMK63ZiCmz1B0YtC4z-81" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;输充线告诉操作台，&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;那个料箱来了，操作&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;结束后，station&amp;nbsp;告诉&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;equip&amp;nbsp;可以放行&lt;/div&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cQgMK63ZiCmz1B0YtC4z-80">
+          <mxGeometry x="-0.1961" y="3" relative="1" as="geometry">
+            <mxPoint x="22" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cQgMK63ZiCmz1B0YtC4z-43" value="station" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;strokeWidth=2;" vertex="1" parent="1">
@@ -124,17 +124,17 @@
         <mxCell id="cQgMK63ZiCmz1B0YtC4z-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-59" target="cQgMK63ZiCmz1B0YtC4z-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cQgMK63ZiCmz1B0YtC4z-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.49;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-59" target="cQgMK63ZiCmz1B0YtC4z-64">
+        <mxCell id="cQgMK63ZiCmz1B0YtC4z-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.04;entryY=0.53;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;align=left;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-59" target="cQgMK63ZiCmz1B0YtC4z-64">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="487" y="650" />
-              <mxPoint x="302" y="650" />
+              <mxPoint x="251" y="650" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cQgMK63ZiCmz1B0YtC4z-77" value="mc&amp;nbsp;查询输充线入口状态，&lt;br&gt;以及输充线自身会反馈&lt;br&gt;入口状态，如果同步，&lt;br&gt;则进行下一步" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cQgMK63ZiCmz1B0YtC4z-76">
-          <mxGeometry x="-0.1165" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="cQgMK63ZiCmz1B0YtC4z-82" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;mc&amp;nbsp;查询输充线入口&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;状态，以及输充线自&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;身会反馈入口状态，&lt;/span&gt;&lt;br style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;如果同步，则进行下一步&lt;/span&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cQgMK63ZiCmz1B0YtC4z-78">
+          <mxGeometry x="0.2326" y="2" relative="1" as="geometry">
+            <mxPoint x="-30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cQgMK63ZiCmz1B0YtC4z-59" value="mc" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/ai_machine_learning/Cognitive_Services.svg;strokeWidth=2;" vertex="1" parent="1">
@@ -149,18 +149,18 @@
         <mxCell id="cQgMK63ZiCmz1B0YtC4z-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-64" target="cQgMK63ZiCmz1B0YtC4z-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cQgMK63ZiCmz1B0YtC4z-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.02;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-64" target="cQgMK63ZiCmz1B0YtC4z-29">
+        <mxCell id="cQgMK63ZiCmz1B0YtC4z-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.02;entryY=0.595;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;exitX=1.02;exitY=0.47;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cQgMK63ZiCmz1B0YtC4z-64" target="cQgMK63ZiCmz1B0YtC4z-29">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="301" y="905" />
+              <mxPoint x="254" y="905" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cQgMK63ZiCmz1B0YtC4z-64" value="equip" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Service_Environments.svg;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="277.5" y="710" width="50" height="50" as="geometry" />
+        <mxCell id="cQgMK63ZiCmz1B0YtC4z-64" value="equip" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/app_services/App_Service_Environments.svg;strokeWidth=2;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="710" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="cQgMK63ZiCmz1B0YtC4z-66" value="wms_ess" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Azure_Database_MySQL_Server.svg;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="240" y="798.5" width="37.5" height="50" as="geometry" />
+          <mxGeometry x="190" y="820" width="37.5" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
