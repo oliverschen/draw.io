@@ -1,1 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T01:05:35.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="14.4.3" etag="fHpOrD3Sl38OPvOGQ1_b" type="github"><diagram id="h1F2_VC846M0caALQE9h">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-04T07:52:04.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="Rpd9L5JcnX7yFOOpBvOS" version="14.4.3" type="github">
+  <diagram id="h1F2_VC846M0caALQE9h" name="Page-1">
+    <mxGraphModel dx="1185" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yOTpXyZtcchr2fdnSvnH-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yOTpXyZtcchr2fdnSvnH-1" target="yOTpXyZtcchr2fdnSvnH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yOTpXyZtcchr2fdnSvnH-8" value="找到工作站ID和机器人ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yOTpXyZtcchr2fdnSvnH-7">
+          <mxGeometry x="-0.2333" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOTpXyZtcchr2fdnSvnH-1" value="&lt;a class=&quot;nostyle&quot; href=&quot;http://172.20.4.146:8080/swagger-ui.html#/operations/%E6%9C%BA%E5%99%A8%E4%BA%BA/leaveUsingPOST&quot; style=&quot;box-sizing: border-box ; background-color: rgba(73 , 204 , 144 , 0.1) ; display: inline ; text-decoration: inherit ; cursor: pointer ; font-family: &amp;#34;source code pro&amp;#34; , monospace ; font-size: 16px ; font-weight: 600&quot;&gt;&lt;span style=&quot;box-sizing: inherit&quot;&gt;/sc/kubot/leave&lt;/span&gt;&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yOTpXyZtcchr2fdnSvnH-2" value="机器人离开" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yOTpXyZtcchr2fdnSvnH-6" value="发布离开的事件&lt;br&gt;KubotCanLeaveMessageEvent" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOTpXyZtcchr2fdnSvnH-10" value="监听事件" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="310" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
