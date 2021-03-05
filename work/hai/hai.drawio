@@ -1,32 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T06:50:03.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="gIIHJL22sR9gRZVBCoEN" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T02:40:52.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="D9qF-iDu2j2pWcMouBwu" version="14.4.3" type="github">
   <diagram id="qsA4LFFCEY-i6ZN9s8wt" name="Page-1">
     <mxGraphModel dx="2500" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mzdtHxwl5CKynUgDvnSu-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-515" y="1180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mzdtHxwl5CKynUgDvnSu-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-378.5999999999999" y="1180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mzdtHxwl5CKynUgDvnSu-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-265" y="1180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mzdtHxwl5CKynUgDvnSu-18">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-145" y="1180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-520" y="1020" width="390" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="mzdtHxwl5CKynUgDvnSu-6" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-550" y="410" width="1281.7" height="430" as="geometry" />
         </mxCell>
@@ -196,53 +173,82 @@
         <mxCell id="mzdtHxwl5CKynUgDvnSu-5" value="服务调用关系/系统结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-6">
           <mxGeometry x="600" y="410" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-7" value="robot01" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-1/128/Android__logo__robot-128.png" vertex="1" parent="1">
-          <mxGeometry x="-540" y="1310" width="50" height="50" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-560" y="940" width="440" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-8" value="robot02" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-1/128/Android__logo__robot-128.png" vertex="1" parent="1">
-          <mxGeometry x="-400" y="1310" width="50" height="50" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mzdtHxwl5CKynUgDvnSu-42" source="mzdtHxwl5CKynUgDvnSu-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="35" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-9" value="robot03" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-1/128/Android__logo__robot-128.png" vertex="1" parent="1">
-          <mxGeometry x="-290" y="1310" width="50" height="50" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="mzdtHxwl5CKynUgDvnSu-42" source="mzdtHxwl5CKynUgDvnSu-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="171.4000000000001" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-13" value="普通工作站" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.workstation;" vertex="1" parent="1">
-          <mxGeometry x="-492.29999999999995" y="1044.4" width="76.4" height="51.2" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mzdtHxwl5CKynUgDvnSu-42" source="mzdtHxwl5CKynUgDvnSu-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-16" value="缓存工作站" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.workstation;" vertex="1" parent="1">
-          <mxGeometry x="-364.1" y="1044.4" width="76.4" height="51.2" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mzdtHxwl5CKynUgDvnSu-42" source="mzdtHxwl5CKynUgDvnSu-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-17" value="输送线工作站" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.workstation;" vertex="1" parent="1">
-          <mxGeometry x="-234.1" y="1044.4" width="76.4" height="51.2" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-18" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="30" width="390" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-19" value="工作站-一个工作站拥有多个箱子槽位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-450" y="1020" width="240.1" height="20" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-7" value="robot01" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-1/128/Android__logo__robot-128.png" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="10" y="290" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mzdtHxwl5CKynUgDvnSu-29" target="mzdtHxwl5CKynUgDvnSu-7">
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-8" value="robot02" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-1/128/Android__logo__robot-128.png" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="150" y="290" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-9" value="robot03" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-1/128/Android__logo__robot-128.png" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="260" y="290" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-13" value="普通工作站" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.workstation;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="57.700000000000045" y="24.40000000000009" width="76.4" height="51.2" as="geometry" />
+        </mxCell>
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-16" value="缓存工作站" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.workstation;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="185.89999999999998" y="24.40000000000009" width="76.4" height="51.2" as="geometry" />
+        </mxCell>
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-17" value="输送线工作站" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.workstation;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="315.9" y="24.40000000000009" width="76.4" height="51.2" as="geometry" />
+        </mxCell>
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-19" value="工作站-一个工作站拥有多个箱子槽位" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="100" width="240.1" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mzdtHxwl5CKynUgDvnSu-42" source="mzdtHxwl5CKynUgDvnSu-29" target="mzdtHxwl5CKynUgDvnSu-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-29" value="箱子槽位" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/library-9/64/Trolley-book-shelf-cart-education-school-library-128.png;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-550" y="1180" width="70" height="70" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-29" value="箱子槽位" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/library-9/64/Trolley-book-shelf-cart-education-school-library-128.png;strokeWidth=2;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry y="160" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mzdtHxwl5CKynUgDvnSu-30" target="mzdtHxwl5CKynUgDvnSu-37">
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-30" value="箱子槽位" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/library-9/64/Trolley-book-shelf-cart-education-school-library-128.png;strokeWidth=2;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="370" y="160" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="mzdtHxwl5CKynUgDvnSu-42" source="mzdtHxwl5CKynUgDvnSu-31" target="mzdtHxwl5CKynUgDvnSu-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-30" value="箱子槽位" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/library-9/64/Trolley-book-shelf-cart-education-school-library-128.png;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="1180" width="70" height="70" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-31" value="箱子槽位" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/library-9/64/Trolley-book-shelf-cart-education-school-library-128.png;strokeWidth=2;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="250" y="160" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mzdtHxwl5CKynUgDvnSu-31" target="mzdtHxwl5CKynUgDvnSu-9">
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mzdtHxwl5CKynUgDvnSu-42" source="mzdtHxwl5CKynUgDvnSu-32" target="mzdtHxwl5CKynUgDvnSu-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-31" value="箱子槽位" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/library-9/64/Trolley-book-shelf-cart-education-school-library-128.png;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="1180" width="70" height="70" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-32" value="箱子槽位" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/library-9/64/Trolley-book-shelf-cart-education-school-library-128.png;strokeWidth=2;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="140" y="160" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mzdtHxwl5CKynUgDvnSu-32" target="mzdtHxwl5CKynUgDvnSu-8">
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-37" value="robot04" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-1/128/Android__logo__robot-128.png" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="380" y="290" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="mzdtHxwl5CKynUgDvnSu-42" source="mzdtHxwl5CKynUgDvnSu-30" target="mzdtHxwl5CKynUgDvnSu-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-32" value="箱子槽位" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/library-9/64/Trolley-book-shelf-cart-education-school-library-128.png;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="1180" width="70" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="mzdtHxwl5CKynUgDvnSu-37" value="robot04" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/free-1/128/Android__logo__robot-128.png" vertex="1" parent="1">
-          <mxGeometry x="-170" y="1310" width="50" height="50" as="geometry" />
+        <mxCell id="mzdtHxwl5CKynUgDvnSu-41" value="实体关系图，待补充" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="mzdtHxwl5CKynUgDvnSu-42">
+          <mxGeometry x="170" y="360" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
