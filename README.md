@@ -18,7 +18,7 @@ Redis 主从同步等具体技术结构图。
 
 Java 后端涉及知识梳理和总结相关一些图
 
-### [xmind](https://github.com/oliverschen/draw.io/tree/main/Java-Summarize/xmind)
+### [Xmind](https://github.com/oliverschen/draw.io/tree/main/Java-Summarize/xmind)
 新增思维导图源文件，见名知意
 
 ## [Spring](https://github.com/oliverschen/draw.io/tree/main/Spring)
