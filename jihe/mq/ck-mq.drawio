@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-10T03:25:43.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="gwYtHieVKYuq4qQwYDOI" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-10T03:31:11.345Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="l2qwgoRCl4AwEheF0npQ" version="14.4.4" type="github">
   <diagram id="GEWbKtwTwwU5BR-KHDl5" name="第 1 页">
-    <mxGraphModel dx="778" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="777" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,6 +71,9 @@
           <mxGeometry x="-0.1222" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ff3cxpEsu5nCAXXMV_1-29" value="消息格式&lt;br&gt;&lt;div&gt;&lt;span&gt;1&amp;nbsp;message_id&amp;nbsp;全局唯一消息id&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;2&amp;nbsp;broker_id&amp;nbsp;ip+port&amp;nbsp;类型，记录接收的broker&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="305" width="170" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
