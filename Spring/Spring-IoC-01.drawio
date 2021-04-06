@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T01:37:27.653Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="cz2vbp6dQAX_i1WsZkhr" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T08:23:34.018Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="InQtRl8QgCdJgbOVLGPW" version="14.5.4" type="github">
   <diagram id="V-CT-bQR6EL4BBTl5-5s" name="Page-1">
-    <mxGraphModel dx="2703" dy="1771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -74,9 +74,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-79" value="Bean如果实现了BeanFactoryProcessor接口&lt;br&gt;那么在容器初始化后，Spring会负责调用postProcessBeanFactory()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tZ6f-W7lVFpLcrt0BJ1U-48" vertex="1" connectable="0">
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-79" value="&lt;span style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;本方法会实例化和调用所有 BeanFactoryPostProcessor&lt;br&gt;（包括其子类 BeanDefinitionRegistryPostProcessor）&lt;br&gt;postProcessBeanFactory&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tZ6f-W7lVFpLcrt0BJ1U-48" vertex="1" connectable="0">
           <mxGeometry x="-0.2327" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="8" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-4" value="postProcessBeanFactory(beanFactory)" style="whiteSpace=wrap;html=1;rounded=1;strokeColor=#6c8ebf;fillColor=#dae8fc;shadow=0;sketch=0;glass=0;" parent="1" vertex="1">
@@ -88,7 +88,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-6" value="&lt;div&gt;&lt;/div&gt;Spring 设计思想，留给子类一个扩展点去自己实现具体逻辑，这个时候Bean已经加载注册完成，还未初始化" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;labelBorderColor=#33FF99;" parent="1" vertex="1">
-          <mxGeometry x="1237.5" y="60" width="205" height="50" as="geometry" />
+          <mxGeometry x="1235" y="55" width="210" height="75" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-14" target="tZ6f-W7lVFpLcrt0BJ1U-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -204,8 +204,8 @@
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="tZ6f-W7lVFpLcrt0BJ1U-61" target="tZ6f-W7lVFpLcrt0BJ1U-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-61" value="设置启动时间，启动状态，校验 xml 信息等，创建容器前的准备" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;labelBorderColor=#33FF99;" parent="1" vertex="1">
-          <mxGeometry x="331.25" y="100" width="130" height="30" as="geometry" />
+        <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-61" value="设置启动时间，启动状态，校验 xml 信息等，创建容器前的准备,创建早期listener容器和event容器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;labelBorderColor=#33FF99;" parent="1" vertex="1">
+          <mxGeometry x="320.62" y="90" width="151.25" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tZ6f-W7lVFpLcrt0BJ1U-64" value="&lt;span style=&quot;background-color: rgb(102 , 255 , 102)&quot;&gt;BeanDefinition&lt;/span&gt;:Bean定义，就是我们通过 xml或者 @Bean配置的Bean信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="291.25" y="50" width="408.75" height="20" as="geometry" />
