@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-07T14:30:46.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="bQSYfnHglmz29do5ZqXI" version="14.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T15:55:39.861Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="hNBrAKyQDmemIJumnD3a" version="14.5.8" type="github">
   <diagram id="ky6fFpgVnQBfo7zs0x9U" name="第 1 页">
-    <mxGraphModel dx="1422" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,7 +187,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="98BjTFWm4dTUNpLyGhqg-1" value="最终到了application Context 的 refresh() 方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Pfr_c7od5XY8Wq67QSDI-62">
+        <mxCell id="98BjTFWm4dTUNpLyGhqg-1" value="最终到了application Context 的 refresh() 方法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Pfr_c7od5XY8Wq67QSDI-62" vertex="1" connectable="0">
           <mxGeometry x="0.3111" y="-1" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -485,7 +485,7 @@
         <mxCell id="Pfr_c7od5XY8Wq67QSDI-145" value="tomcat.start()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="710" y="1510" width="350" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Pfr_c7od5XY8Wq67QSDI-148" value="启动完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
+        <mxCell id="Pfr_c7od5XY8Wq67QSDI-148" value="初始化完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
           <mxGeometry x="710" y="1600" width="350" height="40" as="geometry" />
         </mxCell>
       </root>
