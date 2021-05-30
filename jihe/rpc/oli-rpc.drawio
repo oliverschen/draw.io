@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-29T17:09:29.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="w0aHgPq4cNcN07kCEqos" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-30T07:42:56.076Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="wLC8Ivz4EtWP_UdRRj-m" version="14.7.0" type="github">
   <diagram id="Ye_1s_PwDqeFsSJ71oEs" name="第 1 页">
     <mxGraphModel dx="4246" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -399,11 +399,12 @@
         <mxCell id="imjMCaDLdFiwxpezGP4K-9" value="oli-rpc-registry" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="2000" y="620" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VZpGVQRT_bhyU681DGQQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="imjMCaDLdFiwxpezGP4K-10" target="kYJI89ZG_f7y3mHB3t0j-4" edge="1">
+        <mxCell id="VZpGVQRT_bhyU681DGQQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="imjMCaDLdFiwxpezGP4K-10" target="imjMCaDLdFiwxpezGP4K-7" edge="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2060" y="440" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1840" y="470" />
-              <mxPoint x="2060" y="470" />
+              <mxPoint x="1840" y="460" />
+              <mxPoint x="1840" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -520,12 +521,6 @@
         </mxCell>
         <mxCell id="kYJI89ZG_f7y3mHB3t0j-1" value="RPC 调用过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="87.5" y="450" width="90" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="kYJI89ZG_f7y3mHB3t0j-5" value="依赖" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=120;entryDy=32;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=32;exitPerimeter=0;" edge="1" parent="1" source="kYJI89ZG_f7y3mHB3t0j-4" target="imjMCaDLdFiwxpezGP4K-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="kYJI89ZG_f7y3mHB3t0j-4" value="oli-rpc-proxy" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="2000" y="390" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
