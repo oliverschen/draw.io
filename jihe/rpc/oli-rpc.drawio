@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-02T15:51:15.088Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="d76GcsreN-n0fR9OVCC_" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-02T15:51:39.017Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15" etag="dtjNisLiOExE0vtK07ag" version="14.7.0" type="github">
   <diagram id="Ye_1s_PwDqeFsSJ71oEs" name="第 1 页">
     <mxGraphModel dx="4246" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
@@ -189,7 +189,7 @@
           <mxGeometry x="905" y="860" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="innrkbjN795lYIx9L5WS-78" value="&lt;b&gt;Version1.0.1&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="745" y="1180" width="70" height="20" as="geometry" />
+          <mxGeometry x="750" y="1130" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="innrkbjN795lYIx9L5WS-79" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="innrkbjN795lYIx9L5WS-80" target="innrkbjN795lYIx9L5WS-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -207,10 +207,10 @@
           <mxGeometry x="745" y="780" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="innrkbjN795lYIx9L5WS-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
-          <mxGeometry x="735" y="1060" width="90" height="110" as="geometry" />
+          <mxGeometry x="735" y="1060" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="innrkbjN795lYIx9L5WS-85" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="750" y="1140" width="60" height="30" as="geometry" />
+          <mxGeometry x="750" y="1075" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="innrkbjN795lYIx9L5WS-87" value="Registry" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="755" y="1030" width="40" height="20" as="geometry" />
