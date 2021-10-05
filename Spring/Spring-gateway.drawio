@@ -1,1 +1,69 @@
-<mxfile host="app.diagrams.net" modified="2021-09-13T15:27:05.057Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="juSs1vvU-Wgg50sr5Z79" version="14.9.8" type="github"><diagram id="F2nEjIXgvDCufQyXCMDQ" name="Page-1">ddGxDoMgEADQr2FXiK3O1talk0NnIlchQc8gjbZfXw1YS2wXcjwOjgPC8na6GN7LKwrQhEZiIuxEKM2iZB4XeDpI0sxBY5RwFG9QqRd4jLw+lIAhSLSI2qo+xBq7DmobGDcGxzDtjjqs2vMGdlDVXO/1poSVTlN63LwE1ci1cnzw/bV8TfadDJILHL+IFYTlBtG6qJ1y0Mvbre/i9p3/rH4uZqCzPzbMwXb2PAk+iBVv</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-05T09:22:12.384Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="7h2Hdk04xzCiY7ohHUve" version="15.2.7" type="github">
+  <diagram id="F2nEjIXgvDCufQyXCMDQ" name="Page-1">
+    <mxGraphModel dx="946" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qd0xLLgUOSICZUatB9S4-1" value="一个请求从达到 Spring dateway 到返回结果的过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qd0xLLgUOSICZUatB9S4-2" target="qd0xLLgUOSICZUatB9S4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-2" value="handle()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="130" y="190" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qd0xLLgUOSICZUatB9S4-3" target="qd0xLLgUOSICZUatB9S4-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-3" value="DispatcherHandler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qd0xLLgUOSICZUatB9S4-5" target="qd0xLLgUOSICZUatB9S4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-5" value="mapping.getHandler(exchange)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="190" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qd0xLLgUOSICZUatB9S4-7" target="qd0xLLgUOSICZUatB9S4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qd0xLLgUOSICZUatB9S4-7" target="qd0xLLgUOSICZUatB9S4-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-21" value="循环调用adapter" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qd0xLLgUOSICZUatB9S4-20">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-7" value="invokeHandler(exchange, handler)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-11" value="handleResult(exchange, result)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="880" y="190" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qd0xLLgUOSICZUatB9S4-13" target="qd0xLLgUOSICZUatB9S4-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-13" value="获取匹配到的handler" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="345" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qd0xLLgUOSICZUatB9S4-15" target="qd0xLLgUOSICZUatB9S4-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-15" value="调用 handler&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qd0xLLgUOSICZUatB9S4-17" target="qd0xLLgUOSICZUatB9S4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-17" value="处理结果" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="140" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qd0xLLgUOSICZUatB9S4-19" value="handlerAdapter.handle(exchange, handler)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
